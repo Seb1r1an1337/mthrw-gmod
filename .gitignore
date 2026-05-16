@@ -1,0 +1,28 @@
+# Visual Studio
+.vs/
+*.user
+*.aps
+*.bak
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.recipe
+*.idb
+*.obj
+*.exe
+*.dll
+*.lib
+!dependencies/freetype.lib
+*.exp
+
+# Build output
+build/
+intermediate/
+Debug/
+Release/
+x64/
+x86/
+
+# External dependencies (optional, but freetype.lib is here, maybe it should be kept if it's not a submodule)
+# dependencies/freetype.lib
